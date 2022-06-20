@@ -33,5 +33,5 @@ p.s. All string values in the data are replaced by their hashes (implemented usi
 
 License
 ------
-This software is free to use under the MIT license.
+This software is free to use under the **MIT** license.
 
