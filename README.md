@@ -23,11 +23,11 @@ To fill the storage with data, use the following construction:
 
 + linux    
 
-    $ cat redis_mock_data_file.txt | redis-cli 
+    $ cat redis_mock_data_file.txt | redis-cli --pipe
 
 + windows  
 
-    $ type redis_mock_data_file.txt | redis-cli 
+    $ type redis_mock_data_file.txt | redis-cli --pipe
 
 p.s. All string values in the data are replaced by their hashes (implemented using the function ***'hashlib.sha512()'*** standard python library).
 
